@@ -4,7 +4,6 @@
 ### Clone plugin repository
 ```bash
 git clone https://github.com/Shayerdev/table-estate.git
-cd modal-lang-redirect
 ```
 
 ### For compile css/js you have must use Webpack
