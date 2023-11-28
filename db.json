@@ -1,0 +1,72 @@
+{
+  "records": [
+    {
+      "id": 1701148767,
+      "id_record": "AG23",
+      "price": "2000000",
+      "city": "Dnipro",
+      "type": "Villa"
+    },
+    {
+      "id": 1701148772,
+      "id_record": "AG42",
+      "price": "2000000",
+      "city": "Rivne",
+      "type": "Penthouse"
+    },
+    {
+      "id": 1701151375,
+      "id_record": "H19",
+      "price": "2000000",
+      "city": "Chernivtsy",
+      "type": "Room"
+    },
+    {
+      "id": 1701155876,
+      "id_record": "AJ8",
+      "price": "2000000",
+      "city": "Kiev",
+      "type": "Townhouse"
+    }
+  ],
+  "city": [
+    {
+      "id": 1,
+      "label": "Dnipro"
+    },
+    {
+      "id": 2,
+      "label": "Kiev"
+    },
+    {
+      "id": 3,
+      "label": "Rivne"
+    },
+    {
+      "id": 4,
+      "label": "Chernivtsy"
+    },
+    {
+      "id": 5,
+      "label": "Odessa"
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "label": "Villa"
+    },
+    {
+      "id": 2,
+      "label": "Room"
+    },
+    {
+      "id": 3,
+      "label": "Penthouse"
+    },
+    {
+      "id": 4,
+      "label": "Townhouse"
+    }
+  ]
+}
