@@ -1,53 +1,89 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Table Test</title>
-</head>
-<body>
-<div class="container">
-    <section class="section-data mb-3 d-flex flex-column g-2">
+  </head>
+  <body>
+    <div class="container">
+      <section class="section-data mb-3 d-flex flex-column g-2">
         <div class="d-flex flex-column gap-5 mt-5">
-            <form-record class="d-flex flex-row gap-3">
-                <input type="text" name="record_id" id="record_id" placeholder="ID" class="form-control">
-                <input type="text" name="record_price" id="record_price" placeholder="Price" class="form-control">
-                <form-select-city></form-select-city>
-                <form-select-type></form-select-type>
-                <button id="add_record" class="btn btn-primary text-nowrap">Add Record</button>
-                <button id="save_records" class="btn btn-primary text-nowrap">Save Items</button>
-            </form-record>
-            <table-records>
-                <div class="d-flex justify-content-center p-4">
-                    <div class="spinner-border" role="status">
-                        <span class="sr-only"></span>
-                    </div>
-                </div>
-            </table-records>
+          <form-record class="d-flex flex-row gap-3">
+            <input
+              type="text"
+              name="record_id"
+              id="record_id"
+              placeholder="ID"
+              class="form-control"
+            />
+            <input
+              type="text"
+              name="record_price"
+              id="record_price"
+              placeholder="Price"
+              class="form-control"
+            />
+            <form-select-city></form-select-city>
+            <form-select-type></form-select-type>
+            <button id="add_record" class="btn btn-primary text-nowrap">
+              Add Record
+            </button>
+            <button id="save_records" class="btn btn-primary text-nowrap">
+              Save Items
+            </button>
+          </form-record>
+          <table-records>
+            <div class="d-flex justify-content-center p-4">
+              <div class="spinner-border" role="status">
+                <span class="sr-only"></span>
+              </div>
+            </div>
+          </table-records>
         </div>
-    </section>
-</div>
-
-
-<!-- Modal -->
-<div class="modal fade" id="agreeRecordPrice" tabindex="-1" role="dialog" aria-labelledby="agreeRecordPrice" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Price more then 200000</h5>
-            </div>
-            <div class="modal-body">
-                🤨🤨🤨 Update this?
-            </div>
-            <div class="modal-footer">
-                <button id="decline-price-agree" type="button" class="btn btn-secondary" data-dismiss="modal">Decline</button>
-                <button id="accept-price-agree" type="button" class="btn btn-primary">Agree</button>
-            </div>
-        </div>
+      </section>
     </div>
-</div>
 
-</body>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="agreeRecordPrice"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="agreeRecordPrice"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Price more then 200000
+            </h5>
+          </div>
+          <div class="modal-body">🤨🤨🤨 Update this?</div>
+          <div class="modal-footer">
+            <button
+              id="decline-price-agree"
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Decline
+            </button>
+            <button
+              id="accept-price-agree"
+              type="button"
+              class="btn btn-primary"
+            >
+              Agree
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

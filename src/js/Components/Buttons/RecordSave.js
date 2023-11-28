@@ -1,10 +1,8 @@
-class RecordSave extends HTMLElement{
-    constructor() {
-        super();
-    }
-    connectedCallback(){
-
-    }
+class RecordSave extends HTMLElement {
+  constructor() {
+    super();
+  }
+  connectedCallback() {}
 }
 
 export default RecordSave;

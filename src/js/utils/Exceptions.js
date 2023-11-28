@@ -1,9 +1,7 @@
 class ExceptionsGetRecords extends Error {
-    constructor(message) {
-        super(message);
-    }
+  constructor(message) {
+    super(message);
+  }
 }
 
-export {
-    ExceptionsGetRecords
-};
+export { ExceptionsGetRecords };

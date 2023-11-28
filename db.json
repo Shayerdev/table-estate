@@ -27,6 +27,13 @@
       "price": "2000000",
       "city": "Kiev",
       "type": "Townhouse"
+    },
+    {
+      "id": 1701157442,
+      "id_record": "H78",
+      "price": "98730",
+      "city": "Kiev",
+      "type": "Penthouse"
     }
   ],
   "city": [
